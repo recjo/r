@@ -1,6 +1,6 @@
 
 
-#Acme - July 2014
+#Acme - read in order data for each year
 df2014 = read.csv("acme_BF_2014.csv", header = TRUE, stringsAsFactors = FALSE)
 df2015 = read.csv("acme_BF_2015.csv", header = TRUE, stringsAsFactors = FALSE)
 df2016 = read.csv("acme_BF_2016.csv", header = TRUE, stringsAsFactors = FALSE)
@@ -25,6 +25,7 @@ PlotDaysOrders <- function(dfAllOrders) {
   text(x = xx, y = ordersTable$Count, label = ordersTable$Count, pos = 3, cex = 0.8, col = "red")
 }
 
+#display bar chart showing number of orders placed for the week
 PlotDaysOrders(df2014)
 PlotDaysOrders(df2015)
 PlotDaysOrders(df2016)
@@ -37,7 +38,7 @@ PlotDaysOrders(df2018)
 
 library(ggplot2) #for geom_point
 
-#Compare all 3 years on a line chart
+#Compare all years activity on a line chart
 dfAll <- do.call("rbind", list(df2014, df2015, df2016, df2017, df2018))
 dfAll$OrderSourceID <- 1
 ordersTable <- aggregate(as.numeric(dfAll$OrderSourceID), by=list(format(as.POSIXct(dfAll$OrderDate, format="%Y-%m-%d %H:%M:%OS"), "%Y-%m-%d")), sum)
