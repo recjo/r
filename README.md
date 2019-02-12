@@ -8,3 +8,5 @@ First, the script "acme_BF_YTD.R" produces bar charts showing number of orders p
 Secondly, the script uses ggplot2 to produce a line chart comparing 5 years of activity. (name was changed to ACME for confidentiality)
 
 * [ACME Visualizations Hourly](/acme/hourly) - Wrote "R" script to visualize numbers of order per day over the week of Black Friday to Cyber Monday, in order to determine load handling expectations.
+
+* [Baseball](/baseball) - "R" script to calculate clutch home runs of Mo Vaughn in 2000. Clutch home runs defined as home runs when batting team is behind.
