@@ -11,7 +11,7 @@ Projects written in "R" programming language, using RStudio IDE:
    
    <img src="https://github.com/recjo/r/blob/master/acme/weekly/acme_ytd_2014.png" width="100"> <img src="https://github.com/recjo/r/blob/master/acme/weekly/acme_ytd_2015.png" width="100"> <img src="https://github.com/recjo/r/blob/master/acme/weekly/acme_ytd_2016.png" width="100"> <img src="https://github.com/recjo/r/blob/master/acme/weekly/acme_ytd_2017.png" width="100">
 
-* [ACME Annually](/acme/annually) - line chart comparing annual order volume during the week of Black Friday to Cyber Monday.
+* [ACME Annually](/acme/annual) - line chart comparing annual order volume during the week of Black Friday to Cyber Monday.
 
    <img src="https://github.com/recjo/r/blob/master/acme/annual/acme_ytd.png" width="100">
 
