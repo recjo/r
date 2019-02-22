@@ -1,5 +1,5 @@
-## Order Traffic during the week of Black Friday/Cyber Monday
-These bar charts show the annual history of ACME's order traffic during the week of Black Friday/Cyber Monday.<br />
+## Order Volume during the week of Black Friday/Cyber Monday
+These bar charts show the annual history of ACME's order volume during the week of Black Friday/Cyber Monday.<br />
 What's interseting to note, is that Cyber Monday was far more productive than Black Friday.<br />
 And in some cases, even the Tuesday after Cyber Monday exceeed Black Friday's order volume.<br />
 View the "R" script [acme_BF_YTD.R](/acme/weekly/acme_BF_YTD.R)
