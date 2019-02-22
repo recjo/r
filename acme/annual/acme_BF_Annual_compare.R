@@ -17,7 +17,7 @@ df2018$OrderSourceID <- 1
 #remove the extra column that appeared in 2018 csv
 df2018$TotalProductDiscount <- NULL
 
-#Compare all 3 years on a line chart
+#Compare multiple years on a line chart
 dfAll <- do.call("rbind", list(df2014, df2015, df2016, df2017, df2018))
 dfAll$OrderSourceID <- 1
 ordersTable <- aggregate(as.numeric(dfAll$OrderSourceID), by=list(format(as.POSIXct(dfAll$OrderDate, format="%Y-%m-%d %H:%M:%OS"), "%Y-%m-%d")), sum)
