@@ -12,13 +12,16 @@ IR = Irrelevant home runs (the game is already decided and the pressure is off)<
 CHRP = percentage of home runs which are clutch home runs<br />
 
 Mo Vaughn<br />
-CHR HR IHR CHRP<br />
-&nbsp;24 36 &nbsp;12 66.7%
+CHR | HR | IHR | CHRP
+--- | --- | --- | ---
+4 | 36 | 12 | 66.7%
 
 Mark McGwire<br />
-CHR HR IHR CHRP<br />
-&nbsp;24 32 &nbsp;&nbsp;8 75%
+CHR | HR | IHR | CHRP
+--- | --- | --- | ---
+24 | 32 | 8 | 75%
 
 Sammy Sosa<br />
-CHR HR IHR CHRP<br />
-&nbsp;31 50 &nbsp;19 62%
+CHR | HR | IHR | CHRP
+--- | --- | --- | ---
+31 | 50 | 19 | 62%
