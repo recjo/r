@@ -3,7 +3,7 @@ These bar charts show ACME's hourly order volume during the week of Black Friday
 
 It is interesting to note that 600 orders per hour is the maximum order volume per hour.<br />
 Peak traffic on Black Fridays occurs at 7AM (PST) and tapers off to 6PM.<br />
-Peak traffic on Cyber Monday begins at 5AM (PST) and gradually increases until 6PM, with a slight decrease at 7PM.<br />
+Peak traffic on Cyber Monday begins at 5AM (PST) and generally increases until 6PM, with a slight decrease at 7PM.<br />
 
 View the "R" script [acme_BF_2017.R](/acme/hourly/acme_BF_2017.R)
 
