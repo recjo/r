@@ -1,4 +1,4 @@
-#Basbeall Data Analysis
+# Basbeall Data Analysis
 It seemed to my brother and I, that when Mo Vaughn played for the Angels, he was striking out in clutch situations, with the team behind,  men on base and a home run was desperately needed. It seemed to us that Mo only hit home runs when the Angels were so far ahead the game was in the bag, or when the Angels were far behind and losing was a foregone conclusion.
 
 Using "R" to write a simple script against the Sean Lahman baseball database, combined with Retrosheet game data, I was able to determine my suspicions were unfounded.
